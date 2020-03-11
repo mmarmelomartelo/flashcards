@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    
+ <title>My #3 JS | Flash Card Game!</title>
+ <script src="script.js"></script>
+
+</head>
+
+<body>
+
+<center>
+
+<h1 id= "demo">
+		<script>
+			var numberOne =  Math.floor (Math.random() * 100) + 1;
+			var numberTwo =  Math.floor (Math.random() * 100) + 1;
+			document.write (numberOne + " + " + numberTwo); 
+			var correctAnswer = numberOne + numberTwo;
+			
+			
+		</script>
+</h1>
+
+
+<p>Hello, Please Enter Your Answer </p>
+
+<input id="answer">  <!-- This is a form with an Id named "answer" -->
+<button type="button" onclick="addition()">Submit</button>  <!-- This is a button calling the function "addition"  -->
+<input type="button" value="Get a new card" onclick="window.location.reload()">
+</br>
+</br>
+<p id="output"></p> <!-- This is a paragraph tag  with an Id named "output" -->
+
+</body>
+</center>
+
+<h2> 
+<script> 
+
+// document.write (correctAnswer);
+
+</script>
+</h2>
+
+ </body>
+
+</html>
